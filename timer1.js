@@ -1,4 +1,3 @@
-// const timer = []
 const arr = process.argv.slice(2);
 
 time = arr.map((x) => x * 1000);
@@ -13,8 +12,3 @@ const timer = function (time) {
 
 };
 timer(time);
-
-
-
-// const noise = process.stdout.write('\x07');
-// console.log(noise);
